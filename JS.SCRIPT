@@ -1,0 +1,44 @@
+const caixaPrincipal = document.querySelector(".caixa-principal");
+const caixaPerguntas = document.querySelector(".caixa-perguntas");
+const caixaAlternativas = document.querySelector(".caixa-alternativas");
+const caixaResultado = document.querySelector(".caixa-resultado");
+const textoResultado = document.querySelector(".texto-resultado");
+const perguntas = [
+{
+enunciado: "como o rio grande do sul pode se recuperar das enchentes?",
+alternativas: [
+{
+texto: "Assistência Humanitária",
+afirmacao: " Fornecer ajuda emergencial, como alimentos, água potável, medicamentos e abrigo temporário para os afetados."
+},
+{
+texto: "Resgate e Evacuação",
+afirmacao: "Priorizar a segurança das pessoas, coordenando operações de resgate e evacuação das áreas mais críticas."
+}
+]
+},
+{
+enunciado: "quais os impactos imediatos no rio grande so sul?",
+alternativas: [
+{
+texto: "Danos a Infraestruturas",
+afirmacao: " Estradas, pontes, e outras infraestruturas podem ser severamente danificadas ou destruídas, dificultando o acesso e a mobilidade."
+},
+{
+texto: "Agricultura e Pecuária",
+afirmacao: "As inundações podem devastar lavouras, afetar a produção agrícola e prejudicar a pecuária, gerando prejuízos econômicos significativos."
+}
+]
+},
+{
+enunciado: "como melhorar a vida dos moradores afetados?",
+alternativas: [
+{
+texto: "Programas de Reintegração Social",
+afirmacao: " Implementar iniciativas que ajudem a reintegrar as pessoas na comunidade e promover a coesão social."
+},
+{
+texto: "Serviços de Saúde Mental",
+afirmacao: "Fornecer apoio psicológico e counseling para ajudar os afetados a lidar com o trauma e o estresse pós-desastre"
+}
+]
